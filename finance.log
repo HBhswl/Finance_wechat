@@ -1,0 +1,654 @@
+*** Starting uWSGI 2.0.18 (64bit) on [Tue Jul 23 09:54:21 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 22 July 2019 14:11:46
+os: Linux-3.10.0-514.21.1.el7.x86_64 #1 SMP Thu May 25 17:04:51 UTC 2017
+nodename: VM_0_3_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/sites/finance
+detected binary path: /root/sites/env/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to .
+your processes number limit is 7284
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address ./finance.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.0 (default, Jul 22 2019, 18:55:08)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+Python main interpreter initialized at 0x1277410
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 312864 bytes (305 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1277410 pid: 2539 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 2539)
+spawned uWSGI worker 1 (pid: 2540, cores: 4)
+spawned uWSGI worker 2 (pid: 2541, cores: 4)
+...brutally killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /root/sites/finance
+closing all non-uwsgi socket fds > 2 (max_fd = 100001)...
+found fd 3 mapped to socket 0 (./finance.sock)
+running /root/sites/env/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Tue Jul 23 02:04:43 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 22 July 2019 14:11:46
+os: Linux-3.10.0-514.21.1.el7.x86_64 #1 SMP Thu May 25 17:04:51 UTC 2017
+nodename: VM_0_3_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/sites/finance
+detected binary path: /root/sites/env/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to .
+your processes number limit is 7284
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address ./finance.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.0 (default, Jul 22 2019, 18:55:08)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+Python main interpreter initialized at 0x15b92c0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 312864 bytes (305 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x15b92c0 pid: 2539 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 2539)
+spawned uWSGI worker 1 (pid: 4046, cores: 4)
+spawned uWSGI worker 2 (pid: 4047, cores: 4)
+*** Starting uWSGI 2.0.18 (64bit) on [Tue Jul 23 10:07:21 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 22 July 2019 14:11:46
+os: Linux-3.10.0-514.21.1.el7.x86_64 #1 SMP Thu May 25 17:04:51 UTC 2017
+nodename: VM_0_3_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/sites/finance
+detected binary path: /root/sites/env/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to .
+your processes number limit is 7284
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address ./finance.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.0 (default, Jul 22 2019, 18:55:08)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+Python main interpreter initialized at 0x1c75400
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 312864 bytes (305 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x1c75400 pid: 2342 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 2342)
+spawned uWSGI worker 1 (pid: 2344, cores: 4)
+spawned uWSGI worker 2 (pid: 2345, cores: 4)
+*** Starting uWSGI 2.0.18 (64bit) on [Tue Jul 23 10:13:12 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 22 July 2019 14:11:46
+os: Linux-3.10.0-514.21.1.el7.x86_64 #1 SMP Thu May 25 17:04:51 UTC 2017
+nodename: VM_0_3_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/sites/finance
+detected binary path: /root/sites/env/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to .
+your processes number limit is 7284
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address ./finance.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.0 (default, Jul 22 2019, 18:55:08)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+Python main interpreter initialized at 0xedb400
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 312864 bytes (305 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0xedb400 pid: 3060 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 3060)
+spawned uWSGI worker 1 (pid: 3061, cores: 4)
+spawned uWSGI worker 2 (pid: 3062, cores: 4)
+Tue Jul 23 02:13:19 2019 - *** ./reload has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 2344)...
+Gracefully killing worker 2 (pid: 2345)...
+Tue Jul 23 02:13:19 2019 - *** ./reload has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 3061)...
+Gracefully killing worker 2 (pid: 3062)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /root/sites/finance
+closing all non-uwsgi socket fds > 2 (max_fd = 100001)...
+found fd 3 mapped to socket 0 (./finance.sock)
+running /root/sites/env/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Tue Jul 23 02:13:20 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 22 July 2019 14:11:46
+os: Linux-3.10.0-514.21.1.el7.x86_64 #1 SMP Thu May 25 17:04:51 UTC 2017
+nodename: VM_0_3_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/sites/finance
+detected binary path: /root/sites/env/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to .
+your processes number limit is 7284
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address ./finance.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.0 (default, Jul 22 2019, 18:55:08)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+Python main interpreter initialized at 0x20482b0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 312864 bytes (305 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /root/sites/finance
+closing all non-uwsgi socket fds > 2 (max_fd = 100001)...
+found fd 3 mapped to socket 0 (./finance.sock)
+running /root/sites/env/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Tue Jul 23 02:13:20 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 22 July 2019 14:11:46
+os: Linux-3.10.0-514.21.1.el7.x86_64 #1 SMP Thu May 25 17:04:51 UTC 2017
+nodename: VM_0_3_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/sites/finance
+detected binary path: /root/sites/env/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to .
+your processes number limit is 7284
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address ./finance.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.0 (default, Jul 22 2019, 18:55:08)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+Python main interpreter initialized at 0xcba2b0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 312864 bytes (305 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x20482b0 pid: 2342 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 2342)
+spawned uWSGI worker 1 (pid: 3082, cores: 4)
+spawned uWSGI worker 2 (pid: 3083, cores: 4)
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0xcba2b0 pid: 3060 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 3060)
+spawned uWSGI worker 1 (pid: 3091, cores: 4)
+spawned uWSGI worker 2 (pid: 3092, cores: 4)
+*** Starting uWSGI 2.0.18 (64bit) on [Tue Jul 23 10:24:36 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 22 July 2019 14:11:46
+os: Linux-3.10.0-514.21.1.el7.x86_64 #1 SMP Thu May 25 17:04:51 UTC 2017
+nodename: VM_0_3_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/sites/finance
+detected binary path: /root/sites/env/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to .
+your processes number limit is 7284
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address ./finance.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.0 (default, Jul 22 2019, 18:55:08)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+Python main interpreter initialized at 0x1207400
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 312864 bytes (305 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1207400 pid: 4614 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 4614)
+spawned uWSGI worker 1 (pid: 4615, cores: 4)
+spawned uWSGI worker 2 (pid: 4616, cores: 4)
+[pid: 4616|app: 0|req: 1/1] 65.52.184.212 () {42 vars in 763 bytes} [Tue Jul 23 02:25:59 2019] GET /login => generated 11 bytes in 7 msecs (HTTP/1.1 200) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 4616|app: 0|req: 2/2] 65.52.184.212 () {42 vars in 777 bytes} [Tue Jul 23 02:26:10 2019] GET /login/wechat => generated 31 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 4616|app: 0|req: 3/3] 47.244.244.26 () {46 vars in 1325 bytes} [Tue Jul 23 07:02:12 2019] GET /login/wechat?code=023mvQuk0v8xXr1JMQsk0sdBuk0mvQuF&name=%E5%8D%83%E5%B9%B4%E4%B8%80%E7%A3%8A&avatarUrl=https%3A%2F%2Fwx.qlogo.cn%2Fmmopen%2Fvi_32%2Fm5tWwzPm5KUok50lmsJS2ONf2CWrbDUd9SJ5y3ibPAPibPqN2ZQujbectXp6XjSBXEyXerNmOEo8ZicffCwtGUnSQ%2F132 => generated 31 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 4616|app: 0|req: 4/4] 47.244.244.26 () {46 vars in 1325 bytes} [Tue Jul 23 07:02:46 2019] GET /login/wechat?code=02386sJc0vX6Ez18hoKc0qKGJc086sJq&name=%E5%8D%83%E5%B9%B4%E4%B8%80%E7%A3%8A&avatarUrl=https%3A%2F%2Fwx.qlogo.cn%2Fmmopen%2Fvi_32%2Fm5tWwzPm5KUok50lmsJS2ONf2CWrbDUd9SJ5y3ibPAPibPqN2ZQujbectXp6XjSBXEyXerNmOEo8ZicffCwtGUnSQ%2F132 => generated 31 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 100 bytes (1 switches on core 0)
+Forbidden (Referer checking failed - https://servicewechat.com/wxb3d2b110c6a9fbab/devtools/page-frame.html does not match any trusted origins.): /login/wechat
+[pid: 4616|app: 0|req: 5/5] 47.244.244.26 () {50 vars in 931 bytes} [Tue Jul 23 07:03:27 2019] POST /login/wechat => generated 2612 bytes in 26 msecs (HTTP/1.1 403) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 4616|app: 0|req: 6/6] 47.244.244.26 () {46 vars in 1325 bytes} [Tue Jul 23 07:04:13 2019] GET /login/wechat?code=023aPNk90Hkyzy1VyIj90dnHk90aPNkL&name=%E5%8D%83%E5%B9%B4%E4%B8%80%E7%A3%8A&avatarUrl=https%3A%2F%2Fwx.qlogo.cn%2Fmmopen%2Fvi_32%2Fm5tWwzPm5KUok50lmsJS2ONf2CWrbDUd9SJ5y3ibPAPibPqN2ZQujbectXp6XjSBXEyXerNmOEo8ZicffCwtGUnSQ%2F132 => generated 31 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 100 bytes (1 switches on core 2)
+[pid: 4616|app: 0|req: 7/7] 47.244.244.26 () {46 vars in 1325 bytes} [Tue Jul 23 07:04:41 2019] GET /login/wechat?code=023AYneZ0D0s3V13sxdZ0DUfeZ0AYneS&name=%E5%8D%83%E5%B9%B4%E4%B8%80%E7%A3%8A&avatarUrl=https%3A%2F%2Fwx.qlogo.cn%2Fmmopen%2Fvi_32%2Fm5tWwzPm5KUok50lmsJS2ONf2CWrbDUd9SJ5y3ibPAPibPqN2ZQujbectXp6XjSBXEyXerNmOEo8ZicffCwtGUnSQ%2F132 => generated 31 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 100 bytes (1 switches on core 2)
+[pid: 4616|app: 0|req: 8/8] 47.244.244.26 () {46 vars in 1325 bytes} [Tue Jul 23 07:08:23 2019] GET /login/wechat?code=033g0j7z1sjRV90O7I7z13Sx7z1g0j7n&name=%E5%8D%83%E5%B9%B4%E4%B8%80%E7%A3%8A&avatarUrl=https%3A%2F%2Fwx.qlogo.cn%2Fmmopen%2Fvi_32%2Fm5tWwzPm5KUok50lmsJS2ONf2CWrbDUd9SJ5y3ibPAPibPqN2ZQujbectXp6XjSBXEyXerNmOEo8ZicffCwtGUnSQ%2F132 => generated 31 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 100 bytes (1 switches on core 2)
+[pid: 4616|app: 0|req: 9/9] 47.244.244.26 () {46 vars in 1325 bytes} [Tue Jul 23 07:10:41 2019] GET /login/wechat?code=043WAoHC1wxPg60JnBKC19DdHC1WAoHU&name=%E5%8D%83%E5%B9%B4%E4%B8%80%E7%A3%8A&avatarUrl=https%3A%2F%2Fwx.qlogo.cn%2Fmmopen%2Fvi_32%2Fm5tWwzPm5KUok50lmsJS2ONf2CWrbDUd9SJ5y3ibPAPibPqN2ZQujbectXp6XjSBXEyXerNmOEo8ZicffCwtGUnSQ%2F132 => generated 31 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 100 bytes (1 switches on core 2)
+[pid: 4616|app: 0|req: 10/10] 47.244.244.26 () {46 vars in 1325 bytes} [Tue Jul 23 07:11:23 2019] GET /login/wechat?code=02313opn12XX2p052lqn10Lapn113op8&name=%E5%8D%83%E5%B9%B4%E4%B8%80%E7%A3%8A&avatarUrl=https%3A%2F%2Fwx.qlogo.cn%2Fmmopen%2Fvi_32%2Fm5tWwzPm5KUok50lmsJS2ONf2CWrbDUd9SJ5y3ibPAPibPqN2ZQujbectXp6XjSBXEyXerNmOEo8ZicffCwtGUnSQ%2F132 => generated 31 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 100 bytes (1 switches on core 2)
+[pid: 4616|app: 0|req: 11/11] 47.244.244.26 () {46 vars in 1325 bytes} [Tue Jul 23 07:12:39 2019] GET /login/wechat?code=0334E8jE0Kq8Sj26RCjE0pGbjE04E8ja&name=%E5%8D%83%E5%B9%B4%E4%B8%80%E7%A3%8A&avatarUrl=https%3A%2F%2Fwx.qlogo.cn%2Fmmopen%2Fvi_32%2Fm5tWwzPm5KUok50lmsJS2ONf2CWrbDUd9SJ5y3ibPAPibPqN2ZQujbectXp6XjSBXEyXerNmOEo8ZicffCwtGUnSQ%2F132 => generated 31 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 100 bytes (1 switches on core 2)
+[pid: 4616|app: 0|req: 12/12] 47.244.244.26 () {46 vars in 1325 bytes} [Tue Jul 23 07:14:54 2019] GET /login/wechat?code=03392DS02YmDoT0oUuP02wUpS0292DST&name=%E5%8D%83%E5%B9%B4%E4%B8%80%E7%A3%8A&avatarUrl=https%3A%2F%2Fwx.qlogo.cn%2Fmmopen%2Fvi_32%2Fm5tWwzPm5KUok50lmsJS2ONf2CWrbDUd9SJ5y3ibPAPibPqN2ZQujbectXp6XjSBXEyXerNmOEo8ZicffCwtGUnSQ%2F132 => generated 31 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 100 bytes (1 switches on core 2)
+[pid: 4616|app: 0|req: 13/13] 47.244.244.26 () {46 vars in 1325 bytes} [Tue Jul 23 07:15:38 2019] GET /login/wechat?code=023fScNq1mkdAl0VZbOq1hAxNq1fScNy&name=%E5%8D%83%E5%B9%B4%E4%B8%80%E7%A3%8A&avatarUrl=https%3A%2F%2Fwx.qlogo.cn%2Fmmopen%2Fvi_32%2Fm5tWwzPm5KUok50lmsJS2ONf2CWrbDUd9SJ5y3ibPAPibPqN2ZQujbectXp6XjSBXEyXerNmOEo8ZicffCwtGUnSQ%2F132 => generated 31 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 100 bytes (1 switches on core 2)
+[pid: 4616|app: 0|req: 14/14] 106.39.42.104 () {46 vars in 1325 bytes} [Tue Jul 23 07:16:17 2019] GET /login/wechat?code=033MtoRZ1rwTDS0hmoQZ1USmRZ1MtoR0&name=%E5%8D%83%E5%B9%B4%E4%B8%80%E7%A3%8A&avatarUrl=https%3A%2F%2Fwx.qlogo.cn%2Fmmopen%2Fvi_32%2Fm5tWwzPm5KUok50lmsJS2ONf2CWrbDUd9SJ5y3ibPAPibPqN2ZQujbectXp6XjSBXEyXerNmOEo8ZicffCwtGUnSQ%2F132 => generated 31 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 100 bytes (1 switches on core 2)
+[pid: 4616|app: 0|req: 15/15] 106.39.42.104 () {46 vars in 1325 bytes} [Tue Jul 23 07:17:00 2019] GET /login/wechat?code=0231B35L1dd5q71yrB4L1ERl5L11B35t&name=%E5%8D%83%E5%B9%B4%E4%B8%80%E7%A3%8A&avatarUrl=https%3A%2F%2Fwx.qlogo.cn%2Fmmopen%2Fvi_32%2Fm5tWwzPm5KUok50lmsJS2ONf2CWrbDUd9SJ5y3ibPAPibPqN2ZQujbectXp6XjSBXEyXerNmOEo8ZicffCwtGUnSQ%2F132 => generated 31 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 100 bytes (1 switches on core 2)
+[pid: 4616|app: 0|req: 16/16] 106.39.42.104 () {42 vars in 1208 bytes} [Tue Jul 23 07:18:16 2019] GET /login/wechat?code0231B35L1dd5q71yrB4L1ERl5L11B35t&name=%E5%8D%83%E5%B9%B4%E4%B8%80%E7%A3%8A&avatarUrl=https://wx.qlogo.cn/mmopen/vi_32/m5tWwzPm5KUok50lmsJS2ONf2CWrbDUd9SJ5y3ibPAPibPqN2ZQujbectXp6XjSBXEyXerNmOEo8ZicffCwtGUnSQ/132 => generated 31 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 100 bytes (1 switches on core 2)
+*** Starting uWSGI 2.0.18 (64bit) on [Tue Jul 23 15:18:40 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 22 July 2019 14:11:46
+os: Linux-3.10.0-514.21.1.el7.x86_64 #1 SMP Thu May 25 17:04:51 UTC 2017
+nodename: VM_0_3_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/sites/finance
+detected binary path: /root/sites/env/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to .
+your processes number limit is 7284
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address ./finance.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.0 (default, Jul 22 2019, 18:55:08)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+Python main interpreter initialized at 0x1222410
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 312864 bytes (305 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x1222410 pid: 2926 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 2926)
+spawned uWSGI worker 1 (pid: 2928, cores: 4)
+spawned uWSGI worker 2 (pid: 2929, cores: 4)
+[pid: 2928|app: 0|req: 1/1] 106.39.42.104 () {44 vars in 1239 bytes} [Tue Jul 23 07:18:43 2019] GET /login/wechat?code0231B35L1dd5q71yrB4L1ERl5L11B35t&name=%E5%8D%83%E5%B9%B4%E4%B8%80%E7%A3%8A&avatarUrl=https://wx.qlogo.cn/mmopen/vi_32/m5tWwzPm5KUok50lmsJS2ONf2CWrbDUd9SJ5y3ibPAPibPqN2ZQujbectXp6XjSBXEyXerNmOEo8ZicffCwtGUnSQ/132 => generated 31 bytes in 7 msecs (HTTP/1.1 200) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 2929|app: 0|req: 1/2] 106.39.42.104 () {44 vars in 1239 bytes} [Tue Jul 23 07:18:43 2019] GET /login/wechat?code0231B35L1dd5q71yrB4L1ERl5L11B35t&name=%E5%8D%83%E5%B9%B4%E4%B8%80%E7%A3%8A&avatarUrl=https://wx.qlogo.cn/mmopen/vi_32/m5tWwzPm5KUok50lmsJS2ONf2CWrbDUd9SJ5y3ibPAPibPqN2ZQujbectXp6XjSBXEyXerNmOEo8ZicffCwtGUnSQ/132 => generated 31 bytes in 8 msecs (HTTP/1.1 200) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 2928|app: 0|req: 2/3] 106.39.42.104 () {44 vars in 1239 bytes} [Tue Jul 23 07:18:44 2019] GET /login/wechat?code0231B35L1dd5q71yrB4L1ERl5L11B35t&name=%E5%8D%83%E5%B9%B4%E4%B8%80%E7%A3%8A&avatarUrl=https://wx.qlogo.cn/mmopen/vi_32/m5tWwzPm5KUok50lmsJS2ONf2CWrbDUd9SJ5y3ibPAPibPqN2ZQujbectXp6XjSBXEyXerNmOEo8ZicffCwtGUnSQ/132 => generated 31 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 2929|app: 0|req: 2/4] 106.39.42.104 () {44 vars in 1239 bytes} [Tue Jul 23 07:18:44 2019] GET /login/wechat?code0231B35L1dd5q71yrB4L1ERl5L11B35t&name=%E5%8D%83%E5%B9%B4%E4%B8%80%E7%A3%8A&avatarUrl=https://wx.qlogo.cn/mmopen/vi_32/m5tWwzPm5KUok50lmsJS2ONf2CWrbDUd9SJ5y3ibPAPibPqN2ZQujbectXp6XjSBXEyXerNmOEo8ZicffCwtGUnSQ/132 => generated 31 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 2928|app: 0|req: 3/5] 106.39.42.104 () {44 vars in 1239 bytes} [Tue Jul 23 07:18:44 2019] GET /login/wechat?code0231B35L1dd5q71yrB4L1ERl5L11B35t&name=%E5%8D%83%E5%B9%B4%E4%B8%80%E7%A3%8A&avatarUrl=https://wx.qlogo.cn/mmopen/vi_32/m5tWwzPm5KUok50lmsJS2ONf2CWrbDUd9SJ5y3ibPAPibPqN2ZQujbectXp6XjSBXEyXerNmOEo8ZicffCwtGUnSQ/132 => generated 31 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 2929|app: 0|req: 3/6] 106.39.42.104 () {44 vars in 1239 bytes} [Tue Jul 23 07:18:44 2019] GET /login/wechat?code0231B35L1dd5q71yrB4L1ERl5L11B35t&name=%E5%8D%83%E5%B9%B4%E4%B8%80%E7%A3%8A&avatarUrl=https://wx.qlogo.cn/mmopen/vi_32/m5tWwzPm5KUok50lmsJS2ONf2CWrbDUd9SJ5y3ibPAPibPqN2ZQujbectXp6XjSBXEyXerNmOEo8ZicffCwtGUnSQ/132 => generated 31 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 2928|app: 0|req: 4/7] 106.39.42.104 () {44 vars in 1239 bytes} [Tue Jul 23 07:18:44 2019] GET /login/wechat?code0231B35L1dd5q71yrB4L1ERl5L11B35t&name=%E5%8D%83%E5%B9%B4%E4%B8%80%E7%A3%8A&avatarUrl=https://wx.qlogo.cn/mmopen/vi_32/m5tWwzPm5KUok50lmsJS2ONf2CWrbDUd9SJ5y3ibPAPibPqN2ZQujbectXp6XjSBXEyXerNmOEo8ZicffCwtGUnSQ/132 => generated 31 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 2929|app: 0|req: 4/8] 106.39.42.104 () {44 vars in 1239 bytes} [Tue Jul 23 07:18:44 2019] GET /login/wechat?code0231B35L1dd5q71yrB4L1ERl5L11B35t&name=%E5%8D%83%E5%B9%B4%E4%B8%80%E7%A3%8A&avatarUrl=https://wx.qlogo.cn/mmopen/vi_32/m5tWwzPm5KUok50lmsJS2ONf2CWrbDUd9SJ5y3ibPAPibPqN2ZQujbectXp6XjSBXEyXerNmOEo8ZicffCwtGUnSQ/132 => generated 31 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 2928|app: 0|req: 5/9] 106.39.42.104 () {46 vars in 1325 bytes} [Tue Jul 23 07:18:55 2019] GET /login/wechat?code=043l45NM0L2b2c2hU5MM0d2TMM0l45Nv&name=%E5%8D%83%E5%B9%B4%E4%B8%80%E7%A3%8A&avatarUrl=https%3A%2F%2Fwx.qlogo.cn%2Fmmopen%2Fvi_32%2Fm5tWwzPm5KUok50lmsJS2ONf2CWrbDUd9SJ5y3ibPAPibPqN2ZQujbectXp6XjSBXEyXerNmOEo8ZicffCwtGUnSQ%2F132 => generated 31 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 100 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.18 (64bit) on [Tue Jul 23 15:20:00 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 22 July 2019 14:11:46
+os: Linux-3.10.0-514.21.1.el7.x86_64 #1 SMP Thu May 25 17:04:51 UTC 2017
+nodename: VM_0_3_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/sites/finance
+detected binary path: /root/sites/env/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to .
+your processes number limit is 7284
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address ./finance.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.0 (default, Jul 22 2019, 18:55:08)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+Python main interpreter initialized at 0x26e14f0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 312864 bytes (305 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x26e14f0 pid: 3104 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 3104)
+spawned uWSGI worker 1 (pid: 3106, cores: 4)
+spawned uWSGI worker 2 (pid: 3107, cores: 4)
+Forbidden (Referer checking failed - https://servicewechat.com/wxb3d2b110c6a9fbab/devtools/page-frame.html does not match any trusted origins.): /login/wechat
+[pid: 3106|app: 0|req: 1/1] 106.39.42.104 () {50 vars in 931 bytes} [Tue Jul 23 07:26:27 2019] POST /login/wechat => generated 2612 bytes in 21 msecs (HTTP/1.1 403) 3 headers in 102 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.18 (64bit) on [Tue Jul 23 15:28:37 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 22 July 2019 14:11:46
+os: Linux-3.10.0-514.21.1.el7.x86_64 #1 SMP Thu May 25 17:04:51 UTC 2017
+nodename: VM_0_3_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/sites/finance
+detected binary path: /root/sites/env/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to .
+your processes number limit is 7284
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address ./finance.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.0 (default, Jul 22 2019, 18:55:08)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+Python main interpreter initialized at 0x1e944f0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 312864 bytes (305 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1e944f0 pid: 4208 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 4208)
+spawned uWSGI worker 1 (pid: 4209, cores: 4)
+spawned uWSGI worker 2 (pid: 4210, cores: 4)
+[pid: 4210|app: 0|req: 1/1] 106.39.42.104 () {50 vars in 931 bytes} [Tue Jul 23 07:28:42 2019] POST /login/wechat => generated 31 bytes in 8 msecs (HTTP/1.1 200) 3 headers in 100 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.18 (64bit) on [Tue Jul 23 15:29:08 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 22 July 2019 14:11:46
+os: Linux-3.10.0-514.21.1.el7.x86_64 #1 SMP Thu May 25 17:04:51 UTC 2017
+nodename: VM_0_3_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/sites/finance
+detected binary path: /root/sites/env/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to .
+your processes number limit is 7284
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address ./finance.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.0 (default, Jul 22 2019, 18:55:08)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+Python main interpreter initialized at 0x22a54f0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 312864 bytes (305 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x22a54f0 pid: 4324 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 4324)
+spawned uWSGI worker 1 (pid: 4326, cores: 4)
+spawned uWSGI worker 2 (pid: 4327, cores: 4)
+body is  b'{"code":"023TWjEe1DpCRy0tMOHe1NIDEe1TWjER","name":"\xe5\x8d\x83\xe5\xb9\xb4\xe4\xb8\x80\xe7\xa3\x8a","avatarUrl":"https://wx.qlogo.cn/mmopen/vi_32/m5tWwzPm5KUok50lmsJS2ONf2CWrbDUd9SJ5y3ibPAPibPqN2ZQujbectXp6XjSBXEyXerNmOEo8ZicffCwtGUnSQ/132"}'
+Internal Server Error: /login/wechat
+Traceback (most recent call last):
+  File "/root/sites/env/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/root/sites/env/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/sites/env/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./users/views.py", line 36, in login_wechat
+    open_id = get_openid(code)
+NameError: name 'get_openid' is not defined
+[pid: 4327|app: 0|req: 1/1] 106.39.42.104 () {50 vars in 931 bytes} [Tue Jul 23 07:29:15 2019] POST /login/wechat => generated 58928 bytes in 49 msecs (HTTP/1.1 500) 4 headers in 129 bytes (1 switches on core 0)
+body is  b'----------------------------543066772239892841641440\r\nContent-Disposition: form-data; name="code"\r\n\r\n023TWjEe1DpCRy0tMOHe1NIDEe1TWjER\r\n----------------------------543066772239892841641440\r\nContent-Disposition: form-data; name="name"\r\n\r\n\xe5\x8d\x83\xe5\xb9\xb4\xe4\xb8\x80\xe7\xa3\x8a\r\n----------------------------543066772239892841641440\r\nContent-Disposition: form-data; name="avatorUrl"\r\n\r\nhttps://wx.qlogo.cn/mmopen/vi_32/m5tWwzPm5KUok50lmsJS2ONf2CWrbDUd9SJ5y3ibPAPibPqN2ZQujbectXp6XjSBXEyXerNmOEo8ZicffCwtGUnSQ/132\r\n----------------------------543066772239892841641440--\r\n'
+[pid: 4327|app: 0|req: 2/2] 106.39.42.104 () {46 vars in 783 bytes} [Tue Jul 23 07:44:28 2019] POST /login/wechat => generated 31 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 100 bytes (1 switches on core 3)
+*** Starting uWSGI 2.0.18 (64bit) on [Tue Jul 23 15:44:51 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 22 July 2019 14:11:46
+os: Linux-3.10.0-514.21.1.el7.x86_64 #1 SMP Thu May 25 17:04:51 UTC 2017
+nodename: VM_0_3_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/sites/finance
+detected binary path: /root/sites/env/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to .
+your processes number limit is 7284
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address ./finance.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.0 (default, Jul 22 2019, 18:55:08)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+Python main interpreter initialized at 0xf724f0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 312864 bytes (305 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0xf724f0 pid: 6082 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 6082)
+spawned uWSGI worker 1 (pid: 6083, cores: 4)
+spawned uWSGI worker 2 (pid: 6084, cores: 4)
+body is  b'----------------------------097973203956385490842118\r\nContent-Disposition: form-data; name="code"\r\n\r\n023TWjEe1DpCRy0tMOHe1NIDEe1TWjER\r\n----------------------------097973203956385490842118\r\nContent-Disposition: form-data; name="name"\r\n\r\n\xe5\x8d\x83\xe5\xb9\xb4\xe4\xb8\x80\xe7\xa3\x8a\r\n----------------------------097973203956385490842118\r\nContent-Disposition: form-data; name="avatorUrl"\r\n\r\nhttps://wx.qlogo.cn/mmopen/vi_32/m5tWwzPm5KUok50lmsJS2ONf2CWrbDUd9SJ5y3ibPAPibPqN2ZQujbectXp6XjSBXEyXerNmOEo8ZicffCwtGUnSQ/132\r\n----------------------------097973203956385490842118--\r\n'
+[pid: 6084|app: 0|req: 1/1] 106.39.42.104 () {46 vars in 783 bytes} [Tue Jul 23 07:44:55 2019] POST /login/wechat => generated 31 bytes in 7 msecs (HTTP/1.1 200) 3 headers in 100 bytes (1 switches on core 0)
+body is  b'{"code":"043UTbna1zokSN1rfula1RyBna1UTbno","name":"\xe5\x8d\x83\xe5\xb9\xb4\xe4\xb8\x80\xe7\xa3\x8a","avatarUrl":"https://wx.qlogo.cn/mmopen/vi_32/m5tWwzPm5KUok50lmsJS2ONf2CWrbDUd9SJ5y3ibPAPibPqN2ZQujbectXp6XjSBXEyXerNmOEo8ZicffCwtGUnSQ/132"}'
+Internal Server Error: /login/wechat
+Traceback (most recent call last):
+  File "/root/sites/env/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/root/sites/env/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/sites/env/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./users/views.py", line 36, in login_wechat
+    open_id = get_openid(code)
+NameError: name 'get_openid' is not defined
+[pid: 6084|app: 0|req: 2/2] 106.39.42.104 () {50 vars in 931 bytes} [Tue Jul 23 07:45:02 2019] POST /login/wechat => generated 58928 bytes in 32 msecs (HTTP/1.1 500) 4 headers in 129 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.18 (64bit) on [Tue Jul 23 15:46:23 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 22 July 2019 14:11:46
+os: Linux-3.10.0-514.21.1.el7.x86_64 #1 SMP Thu May 25 17:04:51 UTC 2017
+nodename: VM_0_3_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/sites/finance
+detected binary path: /root/sites/env/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to .
+your processes number limit is 7284
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address ./finance.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.0 (default, Jul 22 2019, 18:55:08)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+Python main interpreter initialized at 0x140d4f0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 312864 bytes (305 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x140d4f0 pid: 6315 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 6315)
+spawned uWSGI worker 1 (pid: 6316, cores: 4)
+spawned uWSGI worker 2 (pid: 6317, cores: 4)
+Internal Server Error: /login/wechat
+Traceback (most recent call last):
+  File "/root/sites/env/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/root/sites/env/lib/python3.7/site-packages/django/utils/deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "/root/sites/env/lib/python3.7/site-packages/django/middleware/common.py", line 52, in process_request
+    if self.should_redirect_with_slash(request):
+  File "/root/sites/env/lib/python3.7/site-packages/django/middleware/common.py", line 70, in should_redirect_with_slash
+    not is_valid_path(request.path_info, urlconf) and
+  File "/root/sites/env/lib/python3.7/site-packages/django/urls/base.py", line 157, in is_valid_path
+    resolve(path, urlconf)
+  File "/root/sites/env/lib/python3.7/site-packages/django/urls/base.py", line 24, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/root/sites/env/lib/python3.7/site-packages/django/urls/resolvers.py", line 535, in resolve
+    for pattern in self.url_patterns:
+  File "/root/sites/env/lib/python3.7/site-packages/django/utils/functional.py", line 80, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/root/sites/env/lib/python3.7/site-packages/django/urls/resolvers.py", line 579, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/root/sites/env/lib/python3.7/site-packages/django/utils/functional.py", line 80, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/root/sites/env/lib/python3.7/site-packages/django/urls/resolvers.py", line 572, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/root/sites/env/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "./finance/urls.py", line 19, in <module>
+    import users.views
+  File "./users/views.py", line 8, in <module>
+    from users.api_wechat import get_openid
+  File "./users/api_wechat.py", line 1, in <module>
+    import requests
+ModuleNotFoundError: No module named 'requests'
+[pid: 6316|app: 0|req: 1/1] 106.39.42.104 () {50 vars in 931 bytes} [Tue Jul 23 07:46:29 2019] POST /login/wechat => generated 138732 bytes in 87 msecs (HTTP/1.1 500) 1 headers in 63 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.18 (64bit) on [Tue Jul 23 15:47:06 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 22 July 2019 14:11:46
+os: Linux-3.10.0-514.21.1.el7.x86_64 #1 SMP Thu May 25 17:04:51 UTC 2017
+nodename: VM_0_3_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/sites/finance
+detected binary path: /root/sites/env/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to .
+your processes number limit is 7284
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address ./finance.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.0 (default, Jul 22 2019, 18:55:08)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+Python main interpreter initialized at 0x216c4f0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 312864 bytes (305 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x216c4f0 pid: 6417 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 6417)
+spawned uWSGI worker 1 (pid: 6418, cores: 4)
+spawned uWSGI worker 2 (pid: 6419, cores: 4)
+body is  b'{"code":"033Z6rv61CuUyM1wWzx61q5tv61Z6rvG","name":"\xe5\x8d\x83\xe5\xb9\xb4\xe4\xb8\x80\xe7\xa3\x8a","avatarUrl":"https://wx.qlogo.cn/mmopen/vi_32/m5tWwzPm5KUok50lmsJS2ONf2CWrbDUd9SJ5y3ibPAPibPqN2ZQujbectXp6XjSBXEyXerNmOEo8ZicffCwtGUnSQ/132"}'
+[pid: 6418|app: 0|req: 1/1] 106.39.42.104 () {50 vars in 931 bytes} [Tue Jul 23 07:47:12 2019] POST /login/wechat => generated 24 bytes in 452 msecs (HTTP/1.1 200) 3 headers in 100 bytes (1 switches on core 0)
+body is  b'{"code":"033Tswmj2Pl5gE0DT5oj2Livmj2Tswmo","name":"\xe5\x8d\x83\xe5\xb9\xb4\xe4\xb8\x80\xe7\xa3\x8a","avatarUrl":"https://wx.qlogo.cn/mmopen/vi_32/m5tWwzPm5KUok50lmsJS2ONf2CWrbDUd9SJ5y3ibPAPibPqN2ZQujbectXp6XjSBXEyXerNmOEo8ZicffCwtGUnSQ/132"}'
+[pid: 6418|app: 0|req: 2/2] 106.39.42.104 () {50 vars in 931 bytes} [Tue Jul 23 07:48:51 2019] POST /login/wechat => generated 24 bytes in 260 msecs (HTTP/1.1 200) 3 headers in 100 bytes (1 switches on core 3)
