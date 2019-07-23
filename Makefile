@@ -3,3 +3,5 @@ run:
 new:
 	/usr/local/nginx/sbin/nginx -s reload
 	uwsgi --ini uwsgi.ini
+log:
+	cat finance.log

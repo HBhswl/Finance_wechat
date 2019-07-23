@@ -31,6 +31,7 @@ ALLOWED_HOSTS = ['*']
 # Application definition
 
 INSTALLED_APPS = [
+    'news',
     'users',
     'werkzeug_debugger_runserver',
     'django_extensions',

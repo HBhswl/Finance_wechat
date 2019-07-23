@@ -43,8 +43,78 @@ def login_wechat(request):
     try:
         user = Users.objects.get(open_id=open_id)
     except Users.DoesNotExist:
-        user = Users.objects.create(account=open_id, name=name, open_id=open_id)
+        user = Users.objects.create(account=name, open_id=open_id)
     user.avatarUrl = avatarUrl
     user.save()
 
-    return JsonResponse({'ret': True, 'ID': str(user.id)})
+    token = create_token(user.id)
+    return JsonResponse({'ret': True, 'ID': str(user.id), 'Token': token})
+
+def get_my_profile(request):
+    if request.method != "GET":
+        return JsonResponse({"ret": False, 'error_code': 1})
+    
+    user = verify_token(request.META.get('HTTP_AUTHORIZATION'))
+    if not user:
+        return JsonResponse({"ret": False, 'error_code': 5})
+
+    return JsonResponse(
+        {
+            'ret': True,
+            'account': user.account,
+            'name': user.name,
+            'age': user.age,
+            'sex': user.sex,
+            'avatarUrl': user.avatarUrl
+        })
+
+def modify_my_profile(request):
+    if request.method != "POST":
+        return JsonResponse({'ret': False, 'error_code': 1})
+    
+    user = verify_token(request.META.get('HTTP_AUTHORIZATION'))
+    if not user:
+        return JsonResponse({'ret': False, 'error_code': 5})
+
+    try:
+        data = json.loads(request.body)
+    except JSONDecodeError:
+        return JsonResponse({'ret': False, 'error_code': 3})
+
+    try:
+        name = data['name']
+        age = data['age']
+        sex = data['sex']
+    except KeyError:
+        return JsonResponse({'ret': False, 'error_code': 2})
+
+    if type(age) != int or age < 0 or age > 200:
+        return JsonResponse({'ret': False, 'error_code': 3})
+
+    user.name = name
+    user.age = age
+    user.sex = sex
+
+    try:
+        user.full_clean()
+        user.save()
+    except ValidationError:
+        return JsonResponse({'ret': False, 'error_code': 3})
+
+    return JsonResponse({'ret': True})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

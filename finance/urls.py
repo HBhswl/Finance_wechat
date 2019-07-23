@@ -21,6 +21,7 @@ import users.views
 urlpatterns = [
     path('admin/', admin.site.urls),
     url('^', include('users.urls')),
+    url('^', include('news.urls')),
     # path('login/', users.views.login),
     # path('login/wechat/', users.views.login_wechat),
 ]
