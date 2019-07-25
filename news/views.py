@@ -165,6 +165,8 @@ def upload_post_image(request, post_id):
     if post.poster != user:
         return JsonResponse({'ret': False, 'error_code': 6})
 
+
+    print("post image: ", post.image)
     try:
         post.image = image
         # post.if_end = False
@@ -173,6 +175,7 @@ def upload_post_image(request, post_id):
     except ValidationError:
         return JsonResponse({'ret': False, 'error_code': 3})
 
+    print("post image: ", post.image)
     return JsonResponse({'ret': True, 'image_url': post.image.url})
 
 def get_news(request):

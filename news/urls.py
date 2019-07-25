@@ -1,8 +1,9 @@
 from django.conf.urls import url
+from django.urls import path
 from . import views
 
 urlpatterns = [
     url('news/get', views.get_unclosed_posts),
     url('news/post', views.post_news),
-    url('news/<int:post_id>/upload_image', views.upload_post_image),
+    path('news/upload_image/<int:post_id>', views.upload_post_image),
 ]
