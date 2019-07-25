@@ -15,10 +15,8 @@ from users.models import Users
 from news.models import Post
 from news.models import PostLabel
 
-from news.utils import encode_label
 from news.utils import decode_label
 from news.utils import check_postLabel
-from news.utils import rank_post
 
 post_title_pattern = re.compile(r"^.{1,50}$")
 deadline_pattern = re.compile(r"^\d\d\d\d-\d\d-\d\d$")
@@ -132,7 +130,7 @@ def get_unclosed_posts(request):
             "postID": str(post.id),
             "posterID": str(post.poster.id),
             "poster_name": post.poster.name,
-            "poster_avatar_url": post.poster.avatarUrl,
+            "poster_avatar_url": post.poster.avatar_url,
             "image_url": post.image.url,
             "labels": labels,
             "is_imported": post.is_imported,

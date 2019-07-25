@@ -16,12 +16,16 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from django.conf.urls import url, include
+from django.views.static import serve
+from . import settings
 import users.views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    url('img/(?P<path>.*)$', serve, {"document_root": settings.BASE_DIR}),
     url('^', include('users.urls')),
     url('^', include('news.urls')),
+
     # path('login/', users.views.login),
     # path('login/wechat/', users.views.login_wechat),
 ]
