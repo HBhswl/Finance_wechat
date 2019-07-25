@@ -144,6 +144,36 @@ def get_unclosed_posts(request):
 
     return JsonResponse(ret_data, safe=False)
 
+def upload_post_image(request, post_id):
+    if request.method != "POST":
+        return JsonResponse({'ret': False, 'error_code': 1})
+
+    user = verify_token(request.META.get('HTTP_AUTHORIZATION'))
+    if not user:
+        return JsonResponse({'ret': False, 'error_code': 5})
+
+    if request.content_type != 'multipart/form-data':
+        return JsonResponse({'ret': False, 'error_code': 3})
+    image = request.FILES.get('image')
+    if not image:
+        return JsonResponse({'ret': False, 'error_code': 2})
+
+    try:
+        post = Post.objects.get(id=post_id)
+    except Post.DoesNotExist:
+        return JsonResponse({'ret': False, 'error_code': 4})
+    if post.poster != user:
+        return JsonResponse({'ret': False, 'error_code': 6})
+
+    try:
+        post.image = image
+        # post.if_end = False
+        post.full_clean()  # 检查格式
+        post.save()
+    except ValidationError:
+        return JsonResponse({'ret': False, 'error_code': 3})
+
+    return JsonResponse({'ret': True, 'image_url': post.image.url})
 
 def get_news(request):
     return JsonResponse({'ret': False})
